@@ -1,3 +1,4 @@
+
 def change():
     expense = 23.75
     money = 100
@@ -5,4 +6,4 @@ def change():
     pesos = int(vuelto)
     cents = int(round((vuelto-pesos)*100))
     print(f"Ingresar gasto:\n{expense}\nDinero recibido\n{money}\n\nvuelto\n\n{pesos}\nCentavos:\n{cents}")
-    change()
+change()
